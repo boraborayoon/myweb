@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import boradori from './boradori.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={boradori} className="open-pic" alt="boradori" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I'm working on! 🚧
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          by boraborayoon 💜
+        </p>
       </header>
     </div>
   );
