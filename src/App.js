@@ -1,5 +1,6 @@
 import boradori from './boradori.png'
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           by boraborayoon 💜
         </p>
       </header>
+      <Footer/>
     </div>
   );
 }
