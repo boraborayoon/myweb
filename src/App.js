@@ -1,19 +1,19 @@
 import boradori from './boradori.png'
 import './App.css';
 import Footer from './components/Footer';
+import TitleBar from './components/TitleBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={boradori} className="open-pic" alt="boradori" />
+      <TitleBar/>
+        <img src={boradori} className="open-pic" alt="boradori"/>
         <p>
           I'm working on! 🚧
         </p>
         <p>
           by boraborayoon 💜
         </p>
-      </header>
       <Footer/>
     </div>
   );
